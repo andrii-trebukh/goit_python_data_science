@@ -1,0 +1,153 @@
+/* Custom page CSS */
+body {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    color: #1b1b1b;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+}
+  
+
+.container{
+    margin-bottom: 130px;
+  }
+
+.nav{
+    margin-bottom: 20px;
+    border-bottom: 2px solid; 
+    padding-left: 30px
+  }
+
+  .banner-home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.banner-home {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+}
+ 
+/* Фон зображення */
+.background-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* Текстовий блок поверх зображення */
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    background-color: #eff1f4b7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+/* Стилізація посилань */
+.auth-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.auth-container li {
+    margin-bottom: 10px;
+}
+
+.auth-container a {
+    color: white;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.auth-container a:hover {
+    background-color: #0056b3;
+}
+
+.h1 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.row-home-text {
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: justify;
+}
+
+#slideshow0 {
+    margin-bottom: 20px;
+}
+
+.owl-carousel.owl-loaded {
+    display: block;
+}
+
+.owl-carousel {
+    display: none;
+    width: 100%;
+    z-index: 1;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.owl-carousel .owl-stage {
+    position: relative;
+    touch-action: manipulation;
+
+}
+element.style {
+    width: 269.667px;
+}
+
+.owl-carousel .owl-item {
+    min-height: 1px;
+    float: left;
+}
+
+.item {
+    background-color: #000;
+}
